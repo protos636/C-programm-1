@@ -1,0 +1,92 @@
+./s21_grep -i 2 t/test_case_cat.txt t/test_case_cat.txt
+./s21_grep -e 2 t/test_case_cat.txt t/test_case_cat.txt
+./s21_grep -v sh t/test_1_cat.txt t/test_1_cat.txt
+./s21_grep -v l t/test_1_cat.txt t/test_1_cat.txt
+./s21_grep -v 2 t/test_1_cat.txt t/test_1_cat.txt
+./s21_grep -v \[a-z] t/test_1_cat.txt t/test_1_cat.txt
+./s21_grep -v null t/test_1_cat.txt t/test_1_cat.txt
+./s21_grep -v sh t/test_case_cat.txt t/test_case_cat.txt
+./s21_grep -v l t/test_case_cat.txt t/test_case_cat.txt
+./s21_grep -v \[a-z] t/test_case_cat.txt t/test_case_cat.txt
+./s21_grep -v null t/test_case_cat.txt t/test_case_cat.txt
+./s21_grep -n 2 t/test_case_cat.txt t/test_case_cat.txt
+./s21_grep -h 2 t/test_case_cat.txt t/test_case_cat.txt
+./s21_grep -s 2 t/test_case_cat.txt t/test_case_cat.txt
+./s21_grep -i 2 t/test_case_cat.txt
+./s21_grep -e 2 t/test_case_cat.txt
+./s21_grep -v sh t/test_1_cat.txt
+./s21_grep -v l t/test_1_cat.txt
+./s21_grep -v 2 t/test_1_cat.txt
+./s21_grep -v \[a-z] t/test_1_cat.txt
+./s21_grep -v null t/test_1_cat.txt
+./s21_grep -v sh t/test_case_cat.txt
+./s21_grep -v l t/test_case_cat.txt
+./s21_grep -v \[a-z] t/test_case_cat.txt
+./s21_grep -v null t/test_case_cat.txt
+./s21_grep -n 2 t/test_case_cat.txt
+./s21_grep -h 2 t/test_case_cat.txt
+./s21_grep -s 2 t/test_case_cat.txt
+./s21_grep -i l t/test_case_cat.txt
+./s21_grep -i 2 t/test_case_cat.txt
+./s21_grep -e l t/test_case_cat.txt
+./s21_grep -e 2 t/test_case_cat.txt
+./s21_grep -v sh t/test_1_cat.txt
+./s21_grep -v l t/test_1_cat.txt
+./s21_grep -v 2 t/test_1_cat.txt
+./s21_grep -v \[a-z] t/test_1_cat.txt
+./s21_grep -v null t/test_1_cat.txt
+./s21_grep -v sh t/test_2_cat.txt
+./s21_grep -v l t/test_2_cat.txt
+./s21_grep -v 2 t/test_2_cat.txt
+./s21_grep -v \[a-z] t/test_2_cat.txt
+./s21_grep -v null t/test_2_cat.txt
+./s21_grep -v sh t/test_3_cat.txt
+./s21_grep -v l t/test_3_cat.txt
+./s21_grep -v 2 t/test_3_cat.txt
+./s21_grep -v \[a-z] t/test_3_cat.txt
+./s21_grep -v null t/test_3_cat.txt
+./s21_grep -v sh t/test_4_cat.txt
+./s21_grep -v l t/test_4_cat.txt
+./s21_grep -v 2 t/test_4_cat.txt
+./s21_grep -v \[a-z] t/test_4_cat.txt
+./s21_grep -v null t/test_4_cat.txt
+./s21_grep -v sh t/test_case_cat.txt
+./s21_grep -v l t/test_case_cat.txt
+./s21_grep -v 2 t/test_case_cat.txt
+./s21_grep -v \[a-z] t/test_case_cat.txt
+./s21_grep -v null t/test_case_cat.txt
+./s21_grep -c sh t/test_1_cat.txt
+./s21_grep -c l t/test_1_cat.txt
+./s21_grep -c 2 t/test_1_cat.txt
+./s21_grep -c \[a-z] t/test_1_cat.txt
+./s21_grep -c null t/test_1_cat.txt
+./s21_grep -c sh t/test_2_cat.txt
+./s21_grep -c l t/test_2_cat.txt
+./s21_grep -c 2 t/test_2_cat.txt
+./s21_grep -c \[a-z] t/test_2_cat.txt
+./s21_grep -c null t/test_2_cat.txt
+./s21_grep -c sh t/test_3_cat.txt
+./s21_grep -c l t/test_3_cat.txt
+./s21_grep -c 2 t/test_3_cat.txt
+./s21_grep -c \[a-z] t/test_3_cat.txt
+./s21_grep -c null t/test_3_cat.txt
+./s21_grep -c sh t/test_4_cat.txt
+./s21_grep -c l t/test_4_cat.txt
+./s21_grep -c 2 t/test_4_cat.txt
+./s21_grep -c \[a-z] t/test_4_cat.txt
+./s21_grep -c null t/test_4_cat.txt
+./s21_grep -c sh t/test_case_cat.txt
+./s21_grep -c l t/test_case_cat.txt
+./s21_grep -c 2 t/test_case_cat.txt
+./s21_grep -c \[a-z] t/test_case_cat.txt
+./s21_grep -c null t/test_case_cat.txt
+./s21_grep -l l t/test_case_cat.txt
+./s21_grep -l 2 t/test_case_cat.txt
+./s21_grep -n l t/test_case_cat.txt
+./s21_grep -n 2 t/test_case_cat.txt
+./s21_grep -h l t/test_case_cat.txt
+./s21_grep -h 2 t/test_case_cat.txt
+./s21_grep -s l t/test_case_cat.txt
+./s21_grep -s 2 t/test_case_cat.txt
+./s21_grep -o l t/test_case_cat.txt
+./s21_grep -o 2 t/test_case_cat.txt
